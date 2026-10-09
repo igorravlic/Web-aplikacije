@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>iSTYLE</title>
+ </head>
+ <body>
+  <h1>Pogledaj sve Apple proizvode</h1>
+  <h2>Mac, iPad, iPhone, Watch</h2>
+  <p>Pogledaj, što je novo</p>
+  <p>Vruće i novo</p>
+ </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>iSTYLE</title>
+ </head>
+ <body>
+  <h1>Pogledaj sve Apple proizvode</h1>
+  <h2>Mac, iPad, iPhone, Watch</h2>
+  <p>Pogledaj, što je novo</p>
+  <p>Vruće i novo</p>
+  
+ 
+  <figure>
+   <a href="https://istyle.hr/cdn/shop/files/sales-locations_750x.webp?v=1723106214" target="_blank">
+    <img src="https://istyle.hr/cdn/shop/files/sales-locations_750x.webp?v=1723106214" alt="iStyle lokacije" title="iStyle lokacije" width="300">
+   </a>
+   <figcaption>Popis iStyle lokacija i trgovina. Kliknite za otvaranje veće slike.</figcaption>
+  </figure>
+
+ 
+  <figure>
+   <a href="iPhone.jfif" target="_blank">
+    <img src="iPhone.jfif" alt="iPhone" title="iPhone" width="300">
+   </a>
+   <figcaption>Apple iPhone uređaj iz ponude. Kliknite za otvaranje veće slike.</figcaption>
+  </figure>
+ </body>
+</html>

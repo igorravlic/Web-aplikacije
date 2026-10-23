@@ -1,1 +1,19 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Vježba 8 - Blok elementi</title>
+ </head>
+ <body>
+  <h1>Blok elementi: div i span</h1>
 
+  <!-- Odlomci unutar <div> elementa -->
+  <div>
+   <p>Lorem ipsum dolor <b style="color:red">sit</b> amet, consectetur adipiscing elit.</p>
+   <p>Sed volutpat urna <b style="color:red">vitae</b> lorem facilisis, sed vehicula magna rutrum.</p>
+  </div>
+
+  <!-- Odlomci izvan <div> elementa -->
+  <p>Maecenas <b style="color:red">vitae</b> nibh massa.</p>
+  <p>Ut finibus non <b style="color:red">sit</b> nec ultrices.</p>
+ </body>
+</html>

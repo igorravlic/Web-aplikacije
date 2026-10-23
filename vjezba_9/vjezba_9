@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Vježba 9 - Multimedija</title>
+  <style>
+   body { margin: 1em; }
+  </style>
+ </head>
+ <body>
+  
+  <div style="width: 48%; float: left; margin-right: 2%;">
+   <h2>HTML5 <span style="color:green">&lt;video&gt;</span> element NBA video</h2>
+   <video width="100%" height="100%" controls poster="neymar.webp">
+    <source src="sport_goal.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+   </video>
+  </div>
 
+  <div style="width: 50%; float: left;">
+   <h2>100 Impossible Goals in 2026</h2>
+   <iframe width="100%" height="400" src="https://www.youtube.com/embed/mRvF1Lte50c" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+ </body>
+</html>

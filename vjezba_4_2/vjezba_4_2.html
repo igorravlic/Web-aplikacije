@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hr">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vježba 4_2 - Kontakt Forma</title>
+  <link rel="icon" type="image/png" href="manager.png">
+ </head>
+ <body>
+  <h1>Kontakt obrazac</h1>
+
+  <form action="upload.php" method="POST">
+   <label for="fname">First Name *</label><br>
+   <input type="text" id="fname" name="firstname" placeholder="Your first name.." required><br><br>
+
+   <label for="lname">Last Name *</label><br>
+   <input type="text" id="lname" name="lastname" placeholder="Your last natme.." required><br><br>
+
+   <label for="email">Your E-mail *</label><br>
+   <input type="email" id="email" name="email" placeholder="Your e-mail.." required><br><br>
+
+   <label for="country">Country</label><br>
+   <select id="country" name="country">
+    <option value="">Please select</option>
+    <option value="BE">Belgium</option>
+    <option value="HR" selected>Croatia</option>
+    <option value="LU">Luxembourg</option>
+    <option value="HU">Hungary</option>
+   </select><br><br>
+
+   <label for="message">Message</label><br>
+   <textarea id="message" name="message" rows="4" cols="30" placeholder="Write something...."></textarea><br><br>
+
+   <input type="submit" value="Send">
+   <input type="reset" value="Reset">
+  </form>
+ </body>
+</html>
